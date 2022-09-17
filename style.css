@@ -807,7 +807,14 @@ a.terms-links:hover {
     position: absolute;
     z-index: -1;
 }
+a.terms-links {
+    color: #848484;
+    cursor: pointer;
+}
+a {
+    cursor: pointer;
 
+}
 
 
 @media only screen and (max-width:640px) {
