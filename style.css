@@ -7,9 +7,8 @@
     width: 100%;
     object-fit: cover;
     top: 0px;
-    background-image: url(./images/banner-image.webp);
-
 }
+
 
 .nav-link:active {
     color: #623bcc !important;
@@ -172,6 +171,7 @@ section#home {
 
 .work-Product-card {
     background-image: url(./images/work-process-image3.jpg);
+    
 }
 
 .btn-outline-primary {
@@ -862,6 +862,9 @@ a {
     .orange-circle {
         display: none;
     }
+        .row.work-process-content.m-0.section-padding {
+            padding: 0px 20px !important;
+        }
 
 
 }

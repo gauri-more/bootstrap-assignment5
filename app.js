@@ -1,4 +1,32 @@
 $(document).ready(function () {
+    jQuery("#carousel").owlCarousel({
+        autoplay: true,
+        rewind: true,
+        margin: 20,
+        responsiveClass: true,
+        autoHeight: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 800,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 1
+            },
+
+            1024: {
+                items: 1
+            },
+
+            1366: {
+                items: 1
+            }
+        }
+    });
     jQuery("#performance-carousel").owlCarousel({
         autoplay: false,
         rewind: true,
