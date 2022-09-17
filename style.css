@@ -136,6 +136,8 @@ section#home {
 
 .work-process-card {
     background-image: url(./images/work-process-image2.jpg);
+    position: relative;
+    z-index: 9999;
 }
 
 .work-process-card-logo {
@@ -148,11 +150,11 @@ section#home {
     z-index: 111;
 }
 
-.work-Design-card::after {
+.work-Design-card::after, .work-process-card::after, .work-Product-card::after {
     content: '';
     width: 100%;
     height: 100%;
-    background: #623bcc;
+    /* background: #623bcc; */
     position: absolute;
     top: 0;
     left: 0;
@@ -160,17 +162,29 @@ section#home {
     z-index: 222 !important;
 }
 
+.work-Design-card::after {
+    background: #623bcc;
+}
+
+.work-process-card::after, .work-Product-card::after { 
+    background-color: black;
+}
+
+
+
 .work-process-card-body.p-4 {
     position: relative;
     z-index: 9999;
 }
 
-.work-process-content .col-md-4 {
+/* .work-process-content .col-md-4 {
     padding: 25px 2px;
-}
+} */
 
 .work-Product-card {
     background-image: url(./images/work-process-image3.jpg);
+    position: relative;
+    z-index: 9999;
     
 }
 
