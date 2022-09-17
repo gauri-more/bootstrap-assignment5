@@ -157,7 +157,7 @@ section#home {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.6;
     z-index: 222 !important;
 }
 
@@ -807,10 +807,12 @@ a.terms-links:hover {
     position: absolute;
     z-index: -1;
 }
+
 a.terms-links {
     color: #848484;
     cursor: pointer;
 }
+
 a {
     cursor: pointer;
 
@@ -852,6 +854,13 @@ a {
     .performace-seperator {
         border-bottom: none;
 
+    }
+
+    .blue-lg-circle,
+    .blue-circle,
+    .gray-square,
+    .orange-circle {
+        display: none;
     }
 
 
@@ -982,15 +991,16 @@ a {
         right: 75px;
         z-index: -1;
     }
-        .blue-lg-circle {
-            height: 140px;
-            border: 10px solid#623bcc;
-            width: 140px;
-            border-radius: 50%;
-            left: opx;
-            left: 30px;
-            bottom: -49px;
-            position: absolute;
-            z-index: -1;
-        }
+
+    .blue-lg-circle {
+        height: 140px;
+        border: 10px solid#623bcc;
+        width: 140px;
+        border-radius: 50%;
+        left: opx;
+        left: 30px;
+        bottom: -49px;
+        position: absolute;
+        z-index: -1;
+    }
 }
