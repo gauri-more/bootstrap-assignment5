@@ -9,6 +9,10 @@
     top: 0px;
 }
 
+ .item.client-logo img {
+  max-height: 153px;
+ }
+
 
 .nav-link:active {
     color: #623bcc !important;
@@ -306,6 +310,8 @@ section#home {
     background: #e7e7e7;
     ;
 }
+
+
 
 .profile-card .background-block .background {
     width: 100%;
@@ -943,7 +949,7 @@ a {
     .owl-carousel.owl-carousel-review .owl-dots {
         position: absolute;
         /* bottom: 5% !important; */
-        top: 88%;
+        top: 90%;
         left: 35% !important;
     }
 
@@ -986,6 +992,7 @@ a {
     .owl-carousel .owl-nav button.owl-next {
         right: 25px;
     }
+   
 
     .gray-square {
         width: 35px;
